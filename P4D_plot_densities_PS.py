@@ -1,6 +1,3 @@
-# Author: Kier von Konigslow
-# Date: April 2017
-#
 # Description: The purpose of this file is to plot Polystyrene (PS) density information based on experiment and theory for comparison.
 #
 
@@ -91,4 +88,5 @@ if not showbox:
 #plt.tick_params(which='major', length=7)
 #plt.tick_params(which='minor', length=4)
 plt.tight_layout()
+
 figPUREPS.savefig('../'+output_folder+r'\pure_PS_density'+img_extension,dpi=img_dpi)
