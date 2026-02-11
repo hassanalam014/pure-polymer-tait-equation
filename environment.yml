@@ -1,0 +1,14 @@
+name: pure-polymer-tait
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.25
+  - pandas>=2.1
+  - scipy>=1.12
+  - matplotlib>=3.8
+  - pip
+  - pip:
+      # Include any pip-only packages here if needed
+      # e.g., polykin (if installed via pip)

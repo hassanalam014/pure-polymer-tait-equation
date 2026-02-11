@@ -1,0 +1,13 @@
+# requirements.txt for pure-polymer-tait-equation
+
+# Numerical computing
+numpy>=1.21.0
+
+# Data manipulation
+pandas>=1.3.0
+
+# Scientific computing & fitting
+scipy>=1.7.0
+
+# Plotting and visualization
+matplotlib>=3.4.0
